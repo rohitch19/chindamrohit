@@ -353,7 +353,7 @@ const res  = await fetch(url, { cache: 'no-store' });
         console.error('[site.json] failed to load/parse:', err);
         const msg = document.createElement('div');
         msg.className = 'max-w-7xl mx-auto px-4 py-6 text-sm text-rose-700';
-        msg.textContent = 'Error loading data/site.json. Ensure the file exists and is valid JSON.';
+        msg.textContent = 'Error loading /site.json. Ensure the file exists and is valid JSON.';
         document.body.prepend(msg);
       }
     }
