@@ -342,7 +342,9 @@
 
     async function loadSiteData(){
       try{
-        const res = await fetch('./data/site.json', { cache: 'no-store' });
+        const base = window.location.origin + window.location.pathname.replace(/[^/]*$/, '');
+const url  = base + 'site.json?v=' + Date.now();
+const res  = await fetch(url, { cache: 'no-store' });
         if(!res.ok) throw new Error('HTTP ' + res.status);
         const site = await res.json();
         renderSite(site);
