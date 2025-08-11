@@ -6,12 +6,12 @@
     "description": "Experience across manual & mobile testing, automation, and backend/DevOps. Comfortable with Java, Spring Boot, AWS, Appium, Jira. Based in Nashville, open to remote or on-site roles."
   },
   "contact": {
-    "email": "hello@yourdomain.com"
+    "email": "rohitlaxmanna.rc@gmail.com"
   },
   "resume": "assets/Rohit_Resume.pdf",
   "social": {
-    "linkedin": "https://www.linkedin.com/in/your-handle",
-    "github": "https://github.com/your-handle"
+    "linkedin": "https://www.linkedin.com/in/rohit-laxmanna/",
+    "github": "https://github.com/rohitch19"
   },
   "forms": {
     "provider": "google",
@@ -76,11 +76,27 @@
       "role": "SQA (Mobile)",
       "company": "SharkNinja",
       "type": "Contract",
-      "period": "2025",
+      "period": "Jun 2025 - Present",
       "bullets": [
-        "Tested Android/iOS apps with IoT devices.",
-        "Manual/regression testing; Jira tracking.",
-        "Validated backend data flows."
+        "Performed end-to-end testing of mobile applications on both Android and iOS platforms by connecting them to various Shark Ninja IoT devices, including smart vacuums and kitchen appliances.",
+        "Collaborated with cross-functional teams in an Agile environment to validate mobile and backend features for smart home appliances.",
+        "Conducted manual functional, regression, and exploratory testing across Android and iOS platforms, reporting and tracking bugs using Jira."
+      ]
+    },
+     {
+      "role": "Software Developer/ Automation Engineer",
+      "company": "DataStack Technologies LLC",
+      "type": "Full Time",
+      "period": "Jan 2025 - Jun 2025 ",
+      "bullets": [
+      ]
+    },
+    {
+      "role": "Software Engineer Intern",
+      "company": "CodersData LLC",
+      "type": "Internship",
+      "period": "Jul 2024 – Jan 2025 ",
+      "bullets": [
       ]
     },
     {
@@ -122,58 +138,19 @@
         }
       ]
     },
-    {
-      "title": "IoT Device QA Toolkit",
-      "image": "assets/project-2.png",
-      "desc": "Flows for smart vacuums/kitchen appliances.",
-      "tags": [
-        "Android",
-        "iOS",
-        "Jira"
-      ],
-      "links": [
-        {
-          "label": "Case Study",
-          "href": "#"
-        },
-        {
-          "label": "GitHub",
-          "href": "#"
-        }
-      ]
-    },
-    {
-      "title": "QA Reporting Dashboard",
-      "image": "assets/project-3.png",
-      "desc": "KPIs: stability, pass rates, trends.",
-      "tags": [
-        "Charts",
-        "Node"
-      ],
-      "links": [
-        {
-          "label": "Live",
-          "href": "#"
-        },
-        {
-          "label": "GitHub",
-          "href": "#"
-        }
-      ]
-    }
   ],
   "education": [
     {
       "degree": "MS, Computer Science",
       "school": "Cleveland State University",
-      "period": "2022 – 2024",
-      "desc": "Focus on OS, algorithms, web."
+      "period": "Aug 2022 – May 2024",
+      "desc": "Score: 3.87/4 CGPA"
     },
     {
-      "degree": "B.Tech, CSE",
-      "school": "GRIET (India)",
-      "period": "2016 – 2020",
-      "desc": "Student trainer for web fundamentals."
+      "degree": "Bachelor's in Technology (Computer Science and Engineering)",
+      "school": "Gokaraju Rangaraju Institute of Engineering and Technology (India)",
+      "period": "Jul 2016 – Sep 2020",
+      "desc": "Score: 9.33/10 CGPA"
     }
   ]
 }
