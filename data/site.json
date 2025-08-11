@@ -1,0 +1,179 @@
+{
+  "name": "Chindam Rohit",
+  "tagline": "Software Engineer • QA • DevOps",
+  "hero": {
+    "headline": "I build reliable software & test it like a pro.",
+    "description": "Experience across manual & mobile testing, automation, and backend/DevOps. Comfortable with Java, Spring Boot, AWS, Appium, Jira. Based in Nashville, open to remote or on-site roles."
+  },
+  "contact": {
+    "email": "hello@yourdomain.com"
+  },
+  "resume": "assets/Rohit_Resume.pdf",
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/your-handle",
+    "github": "https://github.com/your-handle"
+  },
+  "forms": {
+    "provider": "google",
+    "google": {
+      "id": "YOUR_GOOGLE_FORM_ID",
+      "fields": {
+        "name": "entry.111111",
+        "email": "entry.222222",
+        "subject": "entry.333333",
+        "message": "entry.444444"
+      }
+    },
+    "formspree": {
+      "endpoint": "https://formspree.io/f/your-code"
+    }
+  },
+  "about": {
+    "bio": "I'm a Software Engineer and QA professional with experience across manual testing, automation, and backend/DevOps. I’ve worked at Tata Consultancy Services (Core Banking), SharkNinja (mobile apps & IoT devices), and as a Graduate TA at Cleveland State University.",
+    "facts": [
+      "📍 Nashville, TN",
+      "🎓 MS in Computer Science – Cleveland State University (2024)",
+      "🛠️ Java, Spring Boot, AWS, Appium, Jira, Git",
+      "🌐 Open to US & India roles • STEM OPT EAD till 2027"
+    ]
+  },
+  "skills": [
+    {
+      "title": "Java & Spring Boot",
+      "desc": "Backend APIs, REST, Hibernate."
+    },
+    {
+      "title": "AWS",
+      "desc": "EC2, S3, IAM, basic CI/CD."
+    },
+    {
+      "title": "Mobile QA",
+      "desc": "Android & iOS, TestFlight, Play Console."
+    },
+    {
+      "title": "Automation",
+      "desc": "Appium (non-coding familiarity), GitHub Actions."
+    },
+    {
+      "title": "Testing",
+      "desc": "Functional, Regression, Exploratory, Jira."
+    },
+    {
+      "title": "Data & APIs",
+      "desc": "API verification, backend flows, logging."
+    },
+    {
+      "title": "Scripting",
+      "desc": "Shell scripts for automation."
+    },
+    {
+      "title": "Tools",
+      "desc": "Git, Jira, Postman, GitHub."
+    }
+  ],
+  "experience": [
+    {
+      "role": "SQA (Mobile)",
+      "company": "SharkNinja",
+      "type": "Contract",
+      "period": "2025",
+      "bullets": [
+        "Tested Android/iOS apps with IoT devices.",
+        "Manual/regression testing; Jira tracking.",
+        "Validated backend data flows."
+      ]
+    },
+    {
+      "role": "Graduate Teaching Assistant",
+      "company": "Cleveland State University",
+      "period": "2023 – 2024",
+      "bullets": [
+        "TA for Advanced OS & Algorithms.",
+        "Helped design content and grading."
+      ]
+    },
+    {
+      "role": "Assistant System Engineer",
+      "company": "Tata Consultancy Services (SBI Core Banking)",
+      "period": "2020 – 2022",
+      "bullets": [
+        "Version control, bug fixing, deployments; client comms."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "BuddyNow – Social Meetup MVP",
+      "image": "assets/project-1.png",
+      "desc": "Architecture, moderation, docs.",
+      "tags": [
+        "React",
+        "Node",
+        "MongoDB"
+      ],
+      "links": [
+        {
+          "label": "Demo",
+          "href": "#"
+        },
+        {
+          "label": "GitHub",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "title": "IoT Device QA Toolkit",
+      "image": "assets/project-2.png",
+      "desc": "Flows for smart vacuums/kitchen appliances.",
+      "tags": [
+        "Android",
+        "iOS",
+        "Jira"
+      ],
+      "links": [
+        {
+          "label": "Case Study",
+          "href": "#"
+        },
+        {
+          "label": "GitHub",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "title": "QA Reporting Dashboard",
+      "image": "assets/project-3.png",
+      "desc": "KPIs: stability, pass rates, trends.",
+      "tags": [
+        "Charts",
+        "Node"
+      ],
+      "links": [
+        {
+          "label": "Live",
+          "href": "#"
+        },
+        {
+          "label": "GitHub",
+          "href": "#"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "MS, Computer Science",
+      "school": "Cleveland State University",
+      "period": "2022 – 2024",
+      "desc": "Focus on OS, algorithms, web."
+    },
+    {
+      "degree": "B.Tech, CSE",
+      "school": "GRIET (India)",
+      "period": "2016 – 2020",
+      "desc": "Student trainer for web fundamentals."
+    }
+  ]
+}

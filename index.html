@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chindam Rohit – Software Engineer | QA | DevOps</title>
+  <meta name="description" content="Chindam Rohit – Software Engineer with experience in QA, Automation, DevOps (Java, Spring Boot, AWS, Appium, Jira)."/>
+  <meta name="author" content="Chindam Rohit"/>
+  <meta property="og:title" content="Chindam Rohit – Software Engineer | QA | DevOps"/>
+  <meta property="og:description" content="Portfolio, experience, and projects of Chindam Rohit."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="assets/og-image.png"/>
+  <meta name="theme-color" content="#0ea5e9"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="icon" type="image/png" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <style>
+    .link-underline { background-size: 0 2px; background-position: 0 100%; background-repeat: no-repeat; transition: background-size .2s ease; }
+    .link-underline:hover { background-image: linear-gradient(currentColor, currentColor); background-size: 100% 2px; }
+    .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(10px); }
+    .dark .glass { background: rgba(17,24,39,0.6); }
+    html.no-js [data-aos] { opacity: 1 !important; transform: none !important; }
+  </style>
+  <script>
+    (function() {
+      const stored = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (stored === 'dark' || (!stored && prefersDark)) { document.documentElement.classList.add('dark'); }
+      document.documentElement.classList.remove('no-js');
+    })();
+  </script>
+</head>
+<body class="no-js bg-gradient-to-b from-sky-50 to-white dark:from-gray-950 dark:to-gray-900 text-gray-800 dark:text-gray-100">
+  <header class="sticky top-0 z-50 border-b border-black/5 dark:border-white/10 backdrop-blur supports-[backdrop-filter]:bg-white/70 dark:supports-[backdrop-filter]:bg-gray-900/60">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="font-semibold tracking-tight text-xl">CR<span class="text-sky-500">.</span></a>
+      <nav class="hidden md:flex gap-6 text-sm">
+        <a href="#about" class="link-underline">About</a>
+        <a href="#skills" class="link-underline">Skills</a>
+        <a href="#experience" class="link-underline">Experience</a>
+        <a href="#projects" class="link-underline">Projects</a>
+        <a href="#education" class="link-underline">Education</a>
+        <a href="#contact" class="link-underline">Contact</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <a href="#contact" class="hidden sm:inline-flex px-3 py-1.5 rounded-full text-sm bg-sky-600 hover:bg-sky-700 text-white transition">Hire Me</a>
+        <button id="themeToggle" class="p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10" aria-label="Toggle theme">
+          <i data-lucide="sun" class="hidden dark:inline-block w-5 h-5"></i>
+          <i data-lucide="moon" class="inline-block dark:hidden w-5 h-5"></i>
+        </button>
+        <button id="menuBtn" class="md:hidden p-2 rounded hover:bg-black/5 dark:hover:bg-white/10" aria-label="Open menu">
+          <i data-lucide="menu" class="w-5 h-5"></i>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden px-4 pb-4">
+      <div class="grid gap-2 text-sm">
+        <a class="py-2" href="#about">About</a>
+        <a class="py-2" href="#skills">Skills</a>
+        <a class="py-2" href="#experience">Experience</a>
+        <a class="py-2" href="#projects">Projects</a>
+        <a class="py-2" href="#education">Education</a>
+        <a class="py-2" href="#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="home" class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10 opacity-40 dark:opacity-30" aria-hidden="true">
+      <svg class="w-[140%] h-[140%] -left-1/4 -top-1/4 absolute blur-3xl" viewBox="0 0 800 600">
+        <defs>
+          <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#38bdf8"/>
+            <stop offset="100%" stop-color="#818cf8"/>
+          </linearGradient>
+        </defs>
+        <circle cx="400" cy="300" r="260" fill="url(#grad)"/>
+      </svg>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 py-20 lg:py-28 grid lg:grid-cols-2 gap-10 items-center">
+      <div data-aos="fade-right">
+        <p id="roleLine" class="uppercase tracking-widest text-xs text-gray-600 dark:text-gray-400">Software Engineer • QA • DevOps</p>
+        <h1 class="mt-3 text-4xl sm:text-5xl font-extrabold leading-tight">Hi, I'm <span id="name" class="text-sky-600">Chindam Rohit</span>.<br/>I build reliable software & test it like a pro.</h1>
+        <p id="heroSub" class="mt-4 text-gray-700 dark:text-gray-300 max-w-xl">Experience across manual & mobile testing, automation, and backend/DevOps. Comfortable with Java, Spring Boot, AWS, Appium, Jira. Based in Nashville, open to remote or on-site roles.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#projects" class="px-4 py-2 rounded-xl bg-sky-600 hover:bg-sky-700 text-white">View Projects</a>
+          <a id="resumeLink" href="assets/Rohit_Resume.pdf" class="px-4 py-2 rounded-xl border border-gray-300 dark:border-gray-700 hover:bg-black/5 dark:hover:bg-white/10">Download Resume</a>
+        </div>
+        <div class="mt-6 flex items-center gap-4 text-sm">
+          <a id="linkedinLink" class="link-underline" href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a id="githubLink" class="link-underline" href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+          <a id="emailLink" class="link-underline" href="mailto:hello@yourdomain.com">Email</a>
+        </div>
+      </div>
+      <div class="relative" data-aos="fade-left">
+        <div class="aspect-square rounded-3xl overflow-hidden ring-1 ring-black/5 dark:ring-white/10 shadow-xl">
+          <img src="assets/profile.png" alt="Rohit portrait" class="w-full h-full object-cover"/>
+        </div>
+        <div class="absolute -bottom-6 -left-6 glass rounded-2xl p-4 shadow-lg">
+          <p class="text-xs uppercase tracking-wide text-gray-600 dark:text-gray-300">Current Focus</p>
+          <p class="font-medium">SQA (Mobile) • Appium • Java • AWS</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-16 lg:py-24">
+    <div class="max-w-7xl mx-auto px-4 grid lg:grid-cols-3 gap-10 items-start">
+      <div data-aos="fade-up">
+        <h2 class="text-2xl font-bold">About Me</h2>
+        <p id="aboutBio" class="mt-3 text-gray-700 dark:text-gray-300">I'm a Software Engineer and QA professional...</p>
+        <ul class="mt-4 grid gap-2 text-sm">
+          <li>📍 Nashville, TN</li>
+          <li>🎓 MS in Computer Science – Cleveland State University (2024)</li>
+          <li>🛠️ Java, Spring Boot, AWS, Appium, Jira, Git</li>
+          <li>🌐 Open to US & India roles • STEM OPT EAD till 2027</li>
+        </ul>
+      </div>
+      <div class="lg:col-span-2 grid sm:grid-cols-2 gap-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="p-6 rounded-2xl border border-black/5 dark:border-white/10 bg-white/70 dark:bg-gray-900/60">
+          <h3 class="font-semibold">What I Do</h3>
+          <p class="mt-2 text-sm text-gray-700 dark:text-gray-300">Manual & regression testing (Android/iOS), API checks, exploratory testing, Jira workflows, and assisting with automation pipelines using Appium and GitHub actions.</p>
+        </div>
+        <div class="p-6 rounded-2xl border border-black/5 dark:border-white/10 bg-white/70 dark:bg-gray-900/60">
+          <h3 class="font-semibold">How I Work</h3>
+          <p class="mt-2 text-sm text-gray-700 dark:text-gray-300">Agile collaboration with devs & product, reproducible bug reports, data consistency verification, and a focus on reliability and usability.</p>
+        </div>
+        <div class="p-6 rounded-2xl border border-black/5 dark:border-white/10 bg-white/70 dark:bg-gray-900/60">
+          <h3 class="font-semibold">Strengths</h3>
+          <p class="mt-2 text-sm text-gray-700 dark:text-gray-300">Clear communication, fast ramp-up on new tech, system thinking from backend to mobile UI.</p>
+        </div>
+        <div class="p-6 rounded-2xl border border-black/5 dark:border-white/10 bg-white/70 dark:bg-gray-900/60">
+          <h3 class="font-semibold">Currently Learning</h3>
+          <p class="mt-2 text-sm text-gray-700 dark:text-gray-300">UiPath fundamentals, deeper Appium, and strengthening SQA frameworks for mobile.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="py-16 lg:py-24 bg-white/60 dark:bg-gray-900/40">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-2xl font-bold" data-aos="fade-up">Skills & Tech</h2>
+      <div id="skillsGrid" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-4" data-aos="fade-up" data-aos-delay="50"></div>
+    </div>
+  </section>
+
+  <section id="experience" class="py-16 lg:py-24">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-2xl font-bold" data-aos="fade-up">Experience</h2>
+      <div id="expGrid" class="mt-8 grid gap-6"></div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-16 lg:py-24 bg-white/60 dark:bg-gray-900/40">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-2xl font-bold" data-aos="fade-up">Projects</h2>
+      <div id="projectsGrid" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+    </div>
+  </section>
+
+  <section id="education" class="py-16 lg:py-24">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-2xl font-bold" data-aos="fade-up">Education</h2>
+      <div id="eduGrid" class="mt-8 grid gap-6"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-16 lg:py-24 bg-white/60 dark:bg-gray-900/40">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-2xl font-bold" data-aos="fade-up">Contact</h2>
+      <p class="mt-2 text-gray-700 dark:text-gray-300" data-aos="fade-up" data-aos-delay="50">Feel free to reach out for roles, collaborations, or questions.</p>
+
+      <!-- Contact form UI (will map to Google Forms or Formspree based on /data/site.json) -->
+      <form id="contactForm" method="POST" class="mt-6 grid gap-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="grid sm:grid-cols-2 gap-4">
+          <input required name="name" data-field="name" placeholder="Your name" class="px-4 py-3 rounded-xl border border-black/10 dark:border-white/10 bg-white/70 dark:bg-gray-900/60"/>
+          <input required type="email" name="email" data-field="email" placeholder="Your email" class="px-4 py-3 rounded-xl border border-black/10 dark:border-white/10 bg-white/70 dark:bg-gray-900/60"/>
+        </div>
+        <input name="subject" data-field="subject" placeholder="Subject" class="px-4 py-3 rounded-xl border border-black/10 dark:border-white/10 bg-white/70 dark:bg-gray-900/60"/>
+        <textarea required name="message" data-field="message" rows="5" placeholder="Your message" class="px-4 py-3 rounded-xl border border-black/10 dark:border-white/10 bg-white/70 dark:bg-gray-900/60"></textarea>
+        <!-- Honeypot -->
+        <input type="text" name="company" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
+        <div class="flex items-center gap-3">
+          <button type="submit" id="sendBtn" class="px-5 py-3 rounded-xl bg-sky-600 hover:bg-sky-700 text-white">Send Message</button>
+          <p class="text-xs text-gray-500">Google Forms / Formspree</p>
+        </div>
+        <div id="formAlert" class="hidden mt-3 text-sm" aria-live="polite"></div>
+      </form>
+
+      <!-- Hidden iframe for Google Forms submission (prevents redirect) -->
+      <iframe id="gform_iframe" name="gform_iframe" class="hidden" title="Hidden confirmation frame"></iframe>
+    </div>
+  </section>
+
+  <footer class="py-10">
+    <div class="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4 text-sm">
+      <p>© <span id="year"></span> Chindam Rohit. All rights reserved.</p>
+      <div class="flex gap-4">
+        <a class="link-underline" href="#home">Top</a>
+        <a class="link-underline" href="assets/Rohit_Resume.pdf">Resume</a>
+        <a class="link-underline" href="mailto:hello@yourdomain.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script id="site-data" type="application/json">
+  {
+    "forms": {
+      "provider": "google",
+      "google": { "id": "YOUR_GOOGLE_FORM_ID", "fields": {
+        "name": "entry.111111",
+        "email": "entry.222222",
+        "subject": "entry.333333",
+        "message": "entry.444444"
+      }},
+      "formspree": { "endpoint": "https://formspree.io/f/your-code" }
+    }
+  }
+  </script>
+
+  <script>
+    lucide.createIcons();
+    AOS.init({ duration: 700, once: true, offset: 60 });
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('menuBtn')?.addEventListener('click', () => document.getElementById('mobileMenu').classList.toggle('hidden'));
+    document.getElementById('themeToggle')?.addEventListener('click', () => {
+      const html = document.documentElement;
+      const isDark = html.classList.toggle('dark');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      lucide.createIcons();
+    });
+
+    let CONTACT_PROVIDER = 'formspree'; // default
+    let GOOGLE_CONF = null;
+    let FORM_READY = false;
+
+    async function loadSiteData() {
+      let data = null;
+      try { const res = await fetch('data/site.json', { cache: 'no-store' }); if (res.ok) data = await res.json(); } catch(e) {}
+      if (!data) { const inline = document.getElementById('site-data'); if (inline) data = JSON.parse(inline.textContent); }
+      if (data) renderSite(data);
+    }
+
+    function setText(id, text) {
+      const el = document.getElementById(id);
+      if (el && typeof text === 'string') el.textContent = text;
+    }
+
+    function configureContactForm(site){
+      const form = document.getElementById('contactForm');
+      if (!form) return;
+      const p = site.forms?.provider || 'formspree';
+      if (p === 'google' && site.forms?.google?.id){
+        CONTACT_PROVIDER = 'google';
+        GOOGLE_CONF = site.forms.google;
+        form.action = `https://docs.google.com/forms/d/e/${GOOGLE_CONF.id}/formResponse`;
+        form.target = 'gform_iframe';
+        // Map field names to entry.* while keeping data-field for our JS
+        const map = GOOGLE_CONF.fields || {};
+        ['name','email','subject','message'].forEach((key)=>{
+          const el = form.querySelector(`[data-field="${key}"]`);
+          if (el && map[key]) el.setAttribute('name', map[key]);
+        });
+      } else {
+        CONTACT_PROVIDER = 'formspree';
+        const endpoint = site.forms?.formspree?.endpoint || 'https://formspree.io/f/your-code';
+        form.action = endpoint;
+        form.removeAttribute('target');
+      }
+      FORM_READY = true;
+    }
+
+    function renderSite(site) {
+      setText('name', site.name || '');
+      setText('roleLine', site.tagline || '');
+      setText('heroSub', site.hero?.description || '');
+      const resumeLink = document.getElementById('resumeLink');
+      if (resumeLink && site.resume) resumeLink.href = site.resume;
+      const linkedin = document.getElementById('linkedinLink');
+      if (linkedin && site.social?.linkedin) linkedin.href = site.social.linkedin;
+      const github = document.getElementById('githubLink');
+      if (github && site.social?.github) github.href = site.social.github;
+      const email = document.getElementById('emailLink');
+      if (email && site.contact?.email) email.href = `mailto:${site.contact.email}`;
+
+      configureContactForm(site);
+
+      if (window.AOS?.refresh) setTimeout(() => AOS.refresh(), 50);
+      initContactForm(); // attach listeners once data is known
+    }
+
+    function initContactForm(){
+      if (!FORM_READY) return;
+      const form = document.getElementById('contactForm');
+      const btn = document.getElementById('sendBtn');
+      const alertBox = document.getElementById('formAlert');
+
+      function showAlert(type, text){
+        alertBox.classList.remove('hidden');
+        alertBox.className = 'mt-3 text-sm ' + (type === 'success' ? 'text-emerald-700' : 'text-rose-600');
+        alertBox.textContent = text;
+      }
+      function setLoading(v){
+        if (!btn) return;
+        btn.disabled = v;
+        btn.classList.toggle('opacity-60', v);
+        btn.textContent = v ? 'Sending…' : 'Send Message';
+      }
+
+      // Draft save using data-field
+      const fields = ['name','email','subject','message'];
+      function saveDraft(){
+        const draft = {};
+        fields.forEach(n => {
+          const el = form.querySelector(`[data-field="${n}"]`);
+          draft[n] = el ? el.value : '';
+        });
+        localStorage.setItem('contactDraft', JSON.stringify(draft));
+      }
+      function restoreDraft(){
+        try{
+          const raw = localStorage.getItem('contactDraft'); if (!raw) return;
+          const d = JSON.parse(raw);
+          fields.forEach(n => {
+            const el = form.querySelector(`[data-field="${n}"]`);
+            if (el && d[n]) el.value = d[n];
+          });
+        }catch(_){}
+      }
+      fields.forEach(n => form.querySelector(`[data-field="${n}"]`)?.addEventListener('input', saveDraft));
+      restoreDraft();
+
+      if (CONTACT_PROVIDER === 'google'){
+        // Submit to hidden iframe (no JS fetch; avoid CORS issues)
+        const iframe = document.getElementById('gform_iframe');
+        iframe.addEventListener('load', () => {
+          // We can't read the content due to cross-origin, but load event implies request finished.
+          showAlert('success','Thanks! Your message has been sent.');
+          setLoading(false); form.reset(); localStorage.removeItem('contactDraft');
+        });
+        form.addEventListener('submit', (e) => {
+          alertBox.classList.add('hidden');
+          // Basic client-side validation on logical fields
+          const nameEl = form.querySelector('[data-field="name"]');
+          const emailEl = form.querySelector('[data-field="email"]');
+          const messageEl = form.querySelector('[data-field="message"]');
+          if (!nameEl.value || !emailEl.value || !messageEl.value){
+            e.preventDefault(); showAlert('error','Please fill in your name, email, and message.'); return;
+          }
+          // Honeypot
+          if (form.querySelector('[name="company"]').value){ e.preventDefault(); return; }
+          setLoading(true);
+          // allow default submit to iframe
+        });
+      } else {
+        // Formspree via fetch
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          alertBox.classList.add('hidden');
+          const nameEl = form.querySelector('[data-field="name"]');
+          const emailEl = form.querySelector('[data-field="email"]');
+          const messageEl = form.querySelector('[data-field="message"]');
+          if (!nameEl.value || !emailEl.value || !messageEl.value){
+            showAlert('error','Please fill in your name, email, and message.'); return;
+          }
+          if (form.querySelector('[name="company"]').value){ return; }
+          setLoading(true);
+          try{
+            const fd = new FormData(form);
+            const res = await fetch(form.action, { method: 'POST', body: fd, headers: { 'Accept': 'application/json' }});
+            if (res.ok){ showAlert('success','Thanks! Your message has been sent.'); form.reset(); localStorage.removeItem('contactDraft'); }
+            else { showAlert('error','Something went wrong. Please try again.'); }
+          } catch(_){ showAlert('error','Network error. Please try again.'); }
+          finally { setLoading(false); }
+        });
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', loadSiteData);
+  </script>
+</body>
+</html>
