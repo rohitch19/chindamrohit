@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
+
+
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfolio</title>
-  <meta name="description" content="Personal portfolio"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chindam Rohit – Software Engineer | QA | DevOps</title>
+  <meta name="description" content="Chindam Rohit – Software Engineer with experience in QA, Automation, DevOps (Java, Spring Boot, AWS, Appium, Jira)."/>
+  <meta name="author" content="Chindam Rohit"/>
+  <meta property="og:title" content="Chindam Rohit – Software Engineer | QA | DevOps"/>
+  <meta property="og:description" content="Portfolio, experience, and projects of Chindam Rohit."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="assets/og-image.png"/>
   <meta name="theme-color" content="#0ea5e9"/>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -32,7 +39,7 @@
   <!-- Header -->
   <header class="sticky top-0 z-50 border-b border-black/5 dark:border-white/10 backdrop-blur supports-[backdrop-filter]:bg-white/70 dark:supports-[backdrop-filter]:bg-gray-900/60">
     <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="#home" id="brand" class="font-semibold tracking-tight text-xl">Portfolio</a>
+      <a href="#home" class="font-semibold tracking-tight text-xl">CR<span class="text-sky-500">.</span></a>
       <nav class="hidden md:flex gap-6 text-sm">
         <a href="#about" class="link-underline">About</a>
         <a href="#skills" class="link-underline">Skills</a>
@@ -42,6 +49,7 @@
         <a href="#contact" class="link-underline">Contact</a>
       </nav>
       <div class="flex items-center gap-2">
+        <a href="#contact" class="hidden sm:inline-flex px-3 py-1.5 rounded-full text-sm bg-sky-600 hover:bg-sky-700 text-white transition">Hire Me</a>
         <button id="themeToggle" class="p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10" aria-label="Toggle theme">
           <i data-lucide="sun" class="hidden dark:inline-block w-5 h-5"></i>
           <i data-lucide="moon" class="inline-block dark:hidden w-5 h-5"></i>
@@ -78,22 +86,26 @@
     </div>
     <div class="max-w-7xl mx-auto px-4 py-20 lg:py-28 grid lg:grid-cols-2 gap-10 items-center">
       <div data-aos="fade-right">
-        <p id="roleLine" class="uppercase tracking-widest text-xs text-gray-600 dark:text-gray-400"></p>
-        <h1 class="mt-3 text-4xl sm:text-5xl font-extrabold leading-tight">Hi, I'm <span id="name" class="text-sky-600"></span>.</h1>
-        <p id="heroSub" class="mt-4 text-gray-700 dark:text-gray-300 max-w-xl"></p>
+        <p id="roleLine" class="uppercase tracking-widest text-xs text-gray-600 dark:text-gray-400">Software Engineer • QA • DevOps</p>
+        <h1 class="mt-3 text-4xl sm:text-5xl font-extrabold leading-tight">Hi, I'm <span id="name" class="text-sky-600">Chindam Rohit</span>.<br/>I build reliable software & test it like a pro.</h1>
+        <p id="heroSub" class="mt-4 text-gray-700 dark:text-gray-300 max-w-xl">Experience across manual & mobile testing, automation, and backend/DevOps. Comfortable with Java, Spring Boot, AWS, Appium, Jira. Based in Nashville, open to remote or on-site roles.</p>
         <div class="mt-6 flex flex-wrap gap-3">
           <a href="#projects" class="px-4 py-2 rounded-xl bg-sky-600 hover:bg-sky-700 text-white">View Projects</a>
-          <a id="resumeLink" href="#" class="px-4 py-2 rounded-xl border border-gray-300 dark:border-gray-700 hover:bg-black/5 dark:hover:bg-white/10">Download Resume</a>
+          <a id="resumeLink" href="assets/Rohit_Resume.pdf" class="px-4 py-2 rounded-xl border border-gray-300 dark:border-gray-700 hover:bg-black/5 dark:hover:bg-white/10">Download Resume</a>
         </div>
         <div class="mt-6 flex items-center gap-4 text-sm">
-          <a id="linkedinLink" class="link-underline" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a id="githubLink" class="link-underline" href="#" target="_blank" rel="noreferrer">GitHub</a>
-          <a id="emailLink" class="link-underline" href="#">Email</a>
+          <a id="linkedinLink" class="link-underline" href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a id="githubLink" class="link-underline" href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+          <a id="emailLink" class="link-underline" href="mailto:hello@yourdomain.com">Email</a>
         </div>
       </div>
       <div class="relative" data-aos="fade-left">
         <div class="aspect-square rounded-3xl overflow-hidden ring-1 ring-black/5 dark:ring-white/10 shadow-xl">
-          <img id="profileImg" src="assets/profile.png" alt="Profile" class="w-full h-full object-cover"/>
+          <img src="assets/profile.png" alt="Rohit portrait" class="w-full h-full object-cover"/>
+        </div>
+        <div class="absolute -bottom-6 -left-6 glass rounded-2xl p-4 shadow-lg">
+          <p class="text-xs uppercase tracking-wide text-gray-600 dark:text-gray-300">Current Focus</p>
+          <p class="font-medium">SQA (Mobile) • Appium • Java • AWS</p>
         </div>
       </div>
     </div>
@@ -110,19 +122,19 @@
       <div class="lg:col-span-2 grid sm:grid-cols-2 gap-6" data-aos="fade-up" data-aos-delay="100">
         <div class="p-6 rounded-2xl border border-black/5 dark:border-white/10 bg-white/70 dark:bg-gray-900/60">
           <h3 class="font-semibold">What I Do</h3>
-          <p class="mt-2 text-sm text-gray-700 dark:text-gray-300" id="whatIDo"></p>
+          <p class="mt-2 text-sm text-gray-700 dark:text-gray-300">Manual & regression testing (Android/iOS), API checks, exploratory testing, Jira workflows, and helping with automation pipelines.</p>
         </div>
         <div class="p-6 rounded-2xl border border-black/5 dark:border-white/10 bg-white/70 dark:bg-gray-900/60">
           <h3 class="font-semibold">How I Work</h3>
-          <p class="mt-2 text-sm text-gray-700 dark:text-gray-300" id="howIWork"></p>
+          <p class="mt-2 text-sm text-gray-700 dark:text-gray-300">Agile collaboration, reproducible bug reports, and reliability-focused thinking.</p>
         </div>
         <div class="p-6 rounded-2xl border border-black/5 dark:border-white/10 bg-white/70 dark:bg-gray-900/60">
           <h3 class="font-semibold">Strengths</h3>
-          <p class="mt-2 text-sm text-gray-700 dark:text-gray-300" id="strengths"></p>
+          <p class="mt-2 text-sm text-gray-700 dark:text-gray-300">Clear communication, fast ramp-up on new tech, end-to-end systems view.</p>
         </div>
         <div class="p-6 rounded-2xl border border-black/5 dark:border-white/10 bg-white/70 dark:bg-gray-900/60">
           <h3 class="font-semibold">Currently Learning</h3>
-          <p class="mt-2 text-sm text-gray-700 dark:text-gray-300" id="learning"></p>
+          <p class="mt-2 text-sm text-gray-700 dark:text-gray-300">UiPath fundamentals, deeper Appium, and stronger mobile SQA frameworks.</p>
         </div>
       </div>
     </div>
@@ -135,6 +147,7 @@
       <div id="skillsGrid" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-4" data-aos="fade-up" data-aos-delay="50"></div>
     </div>
   </section>
+
   <!-- Experience -->
   <section id="experience" class="py-16 lg:py-24">
     <div class="max-w-7xl mx-auto px-4">
@@ -163,7 +176,7 @@
   <section id="contact" class="py-16 lg:py-24 bg-white/60 dark:bg-gray-900/40">
     <div class="max-w-3xl mx-auto px-4">
       <h2 class="text-2xl font-bold" data-aos="fade-up">Contact</h2>
-      <p class="mt-2 text-gray-700 dark:text-gray-300" id="contactHint" data-aos="fade-up" data-aos-delay="50"></p>
+      <p class="mt-2 text-gray-700 dark:text-gray-300" data-aos="fade-up" data-aos-delay="50">Feel free to reach out for roles, collaborations, or questions.</p>
 
       <form id="contactForm" method="POST" class="mt-6 grid gap-4" data-aos="fade-up" data-aos-delay="100">
         <div class="grid sm:grid-cols-2 gap-4">
@@ -176,9 +189,194 @@
         <input type="text" name="company" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
         <div class="flex items-center gap-3">
           <button type="submit" id="sendBtn" class="px-5 py-3 rounded-xl bg-sky-600 hover:bg-sky-700 text-white">Send Message</button>
-          <p class="text-xs text-gray-500" id="formProvider"></p>
+          <p class="text-xs text-gray-500">Google Forms or Formspree</p>
         </div>
         <div id="formAlert" class="hidden mt-3 text-sm" aria-live="polite"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10">
+    <div class="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4 text-sm">
+      <p>© <span id="year"></span> Chindam Rohit. All rights reserved.</p>
+      <div class="flex gap-4">
+        <a class="link-underline" href="#home">Top</a>
+        <a class="link-underline" href="assets/Rohit_Resume.pdf">Resume</a>
+        <a class="link-underline" href="mailto:hello@yourdomain.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Inline fallback data (used + merged if /data/site.json is missing or partial) -->
+  <script id="site-data" type="application/json">
+  {
+    "name": "Chindam Rohit",
+    "tagline": "Software Engineer • QA • DevOps",
+    "hero": {
+      "headline": "I build reliable software & test it like a pro.",
+      "description": "Experience across manual & mobile testing, automation, and backend/DevOps. Comfortable with Java, Spring Boot, AWS, Appium, Jira. Based in Nashville, open to remote or on-site roles."
+    },
+    "contact": { "email": "hello@yourdomain.com" },
+    "resume": "assets/Rohit_Resume.pdf",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/your-handle",
+      "github": "https://github.com/your-handle"
+    },
+    "about": {
+      "bio": "I'm a Software Engineer and QA professional with experience across manual testing, automation, and backend/DevOps. I’ve worked at Tata Consultancy Services (Core Banking), SharkNinja (mobile apps & IoT devices), and as a Graduate TA at Cleveland State University.",
+      "facts": [
+        "📍 Nashville, TN",
+        "🎓 MS in Computer Science – Cleveland State University (2024)",
+        "🛠️ Java, Spring Boot, AWS, Appium, Jira, Git",
+        "🌐 Open to US & India roles • STEM OPT EAD till 2027"
+      ]
+    },
+    "skills": [
+      {"title": "Java & Spring Boot", "desc": "Backend APIs, REST, Hibernate."},
+      {"title": "AWS", "desc": "EC2, S3, IAM, basic CI/CD."},
+      {"title": "Mobile QA", "desc": "Android & iOS, TestFlight, Play Console."},
+      {"title": "Automation", "desc": "Appium familiarity, GitHub Actions."},
+      {"title": "Testing", "desc": "Functional, Regression, Exploratory, Jira."},
+      {"title": "Data & APIs", "desc": "API verification, backend flows."},
+      {"title": "Scripting", "desc": "Shell scripts for automation."},
+      {"title": "Tools", "desc": "Git, Jira, Postman, GitHub."}
+    ],
+    "experience": [
+      {
+        "role": "SQA (Mobile)",
+        "company": "SharkNinja",
+        "type": "Contract",
+        "period": "2025",
+        "bullets": [
+          "Tested Android/iOS apps with IoT devices.",
+          "Manual functional & regression testing; Jira tracking.",
+          "Validated backend data flows & consistency."
+        ]
+      },
+      {
+        "role": "Graduate Teaching Assistant",
+        "company": "Cleveland State University",
+        "period": "2023 – 2024",
+        "bullets": [
+          "TA for Advanced OS & Algorithms.",
+          "Helped design content, grading, and support."
+        ]
+      },
+      {
+        "role": "Assistant System Engineer",
+        "company": "Tata Consultancy Services (SBI Core Banking)",
+        "period": "2020 – 2022",
+        "bullets": [
+          "Version control, bug fixing, deployments; client communication."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "BuddyNow – Social Meetup MVP",
+        "image": "assets/project-1.png",
+        "desc": "Planned scalable architecture, role-based moderation, and clean docs.",
+        "tags": ["React", "Node", "MongoDB"],
+        "links": [{"label":"Demo","href":"#"},{"label":"GitHub","href":"#"}]
+      },
+      {
+        "title": "IoT Device QA Toolkit",
+        "image": "assets/project-2.png",
+        "desc": "Test flows for smart vacuums/kitchen appliances with data validation.",
+        "tags": ["Android", "iOS", "Jira"],
+        "links": [{"label":"Case Study","href":"#"},{"label":"GitHub","href":"#"}]
+      },
+      {
+        "title": "QA Reporting Dashboard",
+        "image": "assets/project-3.png",
+        "desc": "KPIs for stability, regression pass rates, and issue trends.",
+        "tags": ["Charts", "Node"],
+        "links": [{"label":"Live","href":"#"},{"label":"GitHub","href":"#"}]
+      }
+    ],
+    "education": [
+      {"degree":"MS, Computer Science","school":"Cleveland State University","period":"2022 – 2024","desc":"Focus on OS, algorithms, web."},
+      {"degree":"B.Tech, CSE","school":"GRIET (India)","period":"2016 – 2020","desc":"Student trainer for web fundamentals."}
+    ],
+    "forms": {
+      "provider": "google",
+      "google": {
+        "id": "1FAIpQLScP9AZnJHisTyR6ctP_6poZUNADu0ETPYP2yNsQg9ArSwfPzw",
+        "fields": {
+          "name": "entry.1313460157",
+          "email": "entry.217877994",
+          "subject": "entry.1627100009",
+          "message": "entry.1895713649"
+        }
+      },
+      "formspree": { "endpoint": "https://formspree.io/f/your-code" }
+    }
+  }
+  </script>
+
+  <script>
+    lucide.createIcons();
+    AOS.init({ duration: 700, once: true, offset: 60 });
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('menuBtn')?.addEventListener('click',()=>document.getElementById('mobileMenu').classList.toggle('hidden'));
+    document.getElementById('themeToggle')?.addEventListener('click',()=>{const h=document.documentElement;const d=h.classList.toggle('dark');localStorage.setItem('theme',d?'dark':'light');lucide.createIcons();});
+
+    // ---- Deep merge helper (objects only; arrays replaced) ----
+    function deepMerge(base, ext){
+      if(Array.isArray(base)||Array.isArray(ext)) return (ext!==undefined?ext:base);
+      if(typeof base==='object'&&typeof ext==='object'){
+        const out={...base};
+        for(const k of Object.keys(ext)) out[k]=deepMerge(base?.[k], ext[k]);
+        return out;
+      }
+      return (ext!==undefined?ext:base);
+    }
+
+    async function loadSiteData(){
+      const inline = document.getElementById('site-data');
+      let data = inline ? JSON.parse(inline.textContent) : {};
+      try{
+        const res = await fetch('data/site.json', { cache: 'no-store' });
+        if(res.ok){ const external = await res.json(); data = deepMerge(data, external); }
+      }catch(e){ /* keep inline defaults */ }
+      renderSite(data);
+    }
+
+    function setText(id,text){ const el=document.getElementById(id); if(el && typeof text==='string') el.textContent=text; }
+
+    function renderSite(site){
+      // Header + hero
+      setText('name', site.name||'');
+      setText('roleLine', site.tagline||'');
+      setText('heroSub', site.hero?.description||'');
+      const resumeLink=document.getElementById('resumeLink'); if(resumeLink&&site.resume) resumeLink.href=site.resume;
+      const linkedin=document.getElementById('linkedinLink'); if(linkedin&&site.social?.linkedin) linkedin.href=site.social.linkedin;
+      const github=document.getElementById('githubLink'); if(github&&site.social?.github) github.href=site.social.github;
+      const email=document.getElementById('emailLink'); if(email&&site.contact?.email) email.href=`mailto:${site.contact.email}`;
+
+      // About
+      const bio=document.getElementById('aboutBio'); if(bio) bio.textContent = site.about?.bio || '';
+      const facts=document.getElementById('aboutFacts');
+      if(facts && Array.isArray(site.about?.facts)) facts.innerHTML = site.about.facts.map(f=>`<li>${f}</li>`).join('');
+
+      // Skills
+      const skillsWrap=document.getElementById('skillsGrid');
+      if(skillsWrap && Array.isArray(site.skills)){
+        skillsWrap.innerHTML = site.skills.map(s=>`
+          <div class="p-5 rounded-2xl border border-black/5 dark:border-white/10 hover:shadow transition">
+            <p class="font-semibold">${s.title||''}</p>
+            <p class="mt-1 text-sm text-gray-600 dark:text-gray-300">${s.desc||''}</p>
+          </div>`).join('');
+      }
+
+      // Experience
+      const expWrap=document.getElementById('expGrid');
+      if(expWrap && Array.isArray(site.experience)){
+        expWrap.innerHTML = site.experience.map(x=>`
+          <div class="p-6 rounded-2xl border border-black/5 dark:border-white/10" data-aos="fade-up">
+            <div class="flex flex-wrap items-baseline justify-between gap-2">
+      ve="polite"></div>
       </form>
     </div>
   </section>
