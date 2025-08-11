@@ -342,7 +342,7 @@
 
     async function loadSiteData(){
       try{
-        const res = await fetch('./data/site.json' + Date.now(), { cache: 'no-store' });
+        const res = await fetch('data/site.json', { cache: 'no-store' });
         if(!res.ok) throw new Error('HTTP ' + res.status);
         const site = await res.json();
         renderSite(site);
