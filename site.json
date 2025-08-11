@@ -1,0 +1,156 @@
+{
+  "name": "Chindam Rohit",
+  "tagline": "Software Engineer • QA • DevOps",
+  "hero": {
+    "headline": "I build reliable software & test it like a pro.",
+    "description": "Experience across manual & mobile testing, automation, and backend/DevOps. Comfortable with Java, Spring Boot, AWS, Appium, Jira. Based in Nashville, open to remote or on-site roles."
+  },
+  "contact": {
+    "email": "rohitlaxmanna.rc@gmail.com"
+  },
+  "resume": "assets/Rohit_Resume.pdf",
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/rohit-laxmanna/",
+    "github": "https://github.com/rohitch19"
+  },
+  "forms": {
+    "provider": "google",
+    "google": {
+     "id": "1FAIpQLScP9AZnJHisTyR6ctP_6poZUNADu0ETPYP2yNsQg9ArSwfPzw",
+      "fields": {
+        "name": "entry.1313460157",
+        "email": "entry.217877994",
+        "subject": "entry.1627100009",
+        "message": "entry.1895713649"
+      }
+    },
+    "formspree": {
+      "endpoint": "https://formspree.io/f/your-code"
+    }
+  },
+  "about": {
+    "bio": "I'm a Software Engineer and QA professional with experience across manual testing, automation, and backend/DevOps. I’ve worked at Tata Consultancy Services (Core Banking), SharkNinja (mobile apps & IoT devices), and as a Graduate TA at Cleveland State University.",
+    "facts": [
+      "📍 Nashville, TN",
+      "🎓 MS in Computer Science – Cleveland State University (2024)",
+      "🛠️ Java, Spring Boot, AWS, Appium, Jira, Git",
+      "🌐 Open to US & India roles • STEM OPT EAD till 2027"
+    ]
+  },
+  "skills": [
+    {
+      "title": "Java & Spring Boot",
+      "desc": "Backend APIs, REST, Hibernate."
+    },
+    {
+      "title": "AWS",
+      "desc": "EC2, S3, IAM, basic CI/CD."
+    },
+    {
+      "title": "Mobile QA",
+      "desc": "Android & iOS, TestFlight, Play Console."
+    },
+    {
+      "title": "Automation",
+      "desc": "Appium (non-coding familiarity), GitHub Actions."
+    },
+    {
+      "title": "Testing",
+      "desc": "Functional, Regression, Exploratory, Jira."
+    },
+    {
+      "title": "Data & APIs",
+      "desc": "API verification, backend flows, logging."
+    },
+    {
+      "title": "Scripting",
+      "desc": "Shell scripts for automation."
+    },
+    {
+      "title": "Tools",
+      "desc": "Git, Jira, Postman, GitHub."
+    }
+  ],
+  "experience": [
+    {
+      "role": "SQA (Mobile)",
+      "company": "SharkNinja",
+      "type": "Contract",
+      "period": "Jun 2025 - Present",
+      "bullets": [
+        "Performed end-to-end testing of mobile applications on both Android and iOS platforms by connecting them to various Shark Ninja IoT devices, including smart vacuums and kitchen appliances.",
+        "Collaborated with cross-functional teams in an Agile environment to validate mobile and backend features for smart home appliances.",
+        "Conducted manual functional, regression, and exploratory testing across Android and iOS platforms, reporting and tracking bugs using Jira."
+      ]
+    },
+     {
+      "role": "Software Developer/ Automation Engineer",
+      "company": "DataStack Technologies LLC",
+      "type": "Full Time",
+      "period": "Jan 2025 - Jun 2025 ",
+      "bullets": [
+      ]
+    },
+    {
+      "role": "Software Engineer Intern",
+      "company": "CodersData LLC",
+      "type": "Internship",
+      "period": "Jul 2024 – Jan 2025 ",
+      "bullets": [
+      ]
+    },
+    {
+      "role": "Graduate Teaching Assistant",
+      "company": "Cleveland State University",
+      "period": "2023 – 2024",
+      "bullets": [
+        "TA for Advanced OS & Algorithms.",
+        "Helped design content and grading."
+      ]
+    },
+    {
+      "role": "Assistant System Engineer",
+      "company": "Tata Consultancy Services (SBI Core Banking)",
+      "period": "2020 – 2022",
+      "bullets": [
+        "Version control, bug fixing, deployments; client comms."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "BuddyNow – Social Meetup MVP",
+      "image": "assets/project-1.png",
+      "desc": "Architecture, moderation, docs.",
+      "tags": [
+        "React",
+        "Node",
+        "MongoDB"
+      ],
+      "links": [
+        {
+          "label": "Demo",
+          "href": "#"
+        },
+        {
+          "label": "GitHub",
+          "href": "#"
+        }
+      ]
+    },
+  ],
+  "education": [
+    {
+      "degree": "MS, Computer Science",
+      "school": "Cleveland State University",
+      "period": "Aug 2022 – May 2024",
+      "desc": "Score: 3.87/4 CGPA"
+    },
+    {
+      "degree": "Bachelor's in Technology (Computer Science and Engineering)",
+      "school": "Gokaraju Rangaraju Institute of Engineering and Technology (India)",
+      "period": "Jul 2016 – Sep 2020",
+      "desc": "Score: 9.33/10 CGPA"
+    }
+  ]
+}
