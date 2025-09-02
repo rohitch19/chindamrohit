@@ -1,50 +1,37 @@
-# Personal Website (GitHub Pages) — Google Forms Integration
 
-This site can submit contact messages to **Google Forms** or **Formspree**, controlled by `data/site.json`.
+# Personal Portfolio (GitHub Pages)
 
-## Choose your provider (default: Google Forms)
-Edit `data/site.json` → `forms`:
+This is a ready-to-deploy static site. Update `data/site.json` with your info, then push to GitHub.
 
-```json
-{
-  "forms": {
-    "provider": "google",
-    "google": {
-      "id": "YOUR_GOOGLE_FORM_ID",
-      "fields": {
-        "name": "entry.111111",
-        "email": "entry.222222",
-        "subject": "entry.333333",
-        "message": "entry.444444"
-      }
-    },
-    "formspree": { "endpoint": "https://formspree.io/f/your-code" }
-  }
-}
+## Structure
+```
+/index.html
+/data/site.json
+/assets/
+  profile.png, project-*.png, og-image.png, favicon-32.png, apple-touch-icon.png, Rohit_Resume.pdf
+/404.html
+/.nojekyll
 ```
 
-### How to get the Google Form ID and field names
-1. Create your Google Form with fields: **Name**, **Email**, **Subject**, **Message**.
-2. Click **Send → Get pre-filled link**. Enter sample values and **Get link**.
-3. Copy the generated URL. It will look like:
+## Publish on GitHub Pages
+1. Create a new repo and upload all files from this folder.
+2. Commit & push.
+3. In **Settings → Pages**, set:
+   - **Branch**: `main`
+   - **Folder**: `/ (root)`
+4. Open your site once it builds.
 
-   `https://docs.google.com/forms/d/e/XXXXXXXXXXXXXXXX/viewform?usp=pp_url&entry.111111=John&entry.222222=john%40mail.com&entry.333333=Hi&entry.444444=Hello`
+## Custom domain (GoDaddy)
+- Add a **CNAME** record in GoDaddy to point your domain to `<your-username>.github.io`.
+- In the repo root, create a file called `CNAME` containing your domain (e.g. `www.yourdomain.com`).
+- Save and push.
 
-   - The part after `/d/e/` up to `/viewform` is your **Form ID**.
+## Edit content
+- Change text, links, and sections in `/data/site.json`.
+- Replace images in `/assets/`.
+- Replace `assets/Rohit_Resume.pdf` with your real resume.
 
-   - The `entry.xxxxxx` query params are the **field names**. Map them to `name`, `email`, `subject`, `message` in `site.json`.
-4. Save the file and push to GitHub. The site will update automatically.
-
-### How it works
-- For **Google Forms**: the site posts the form to `https://docs.google.com/forms/d/e/<ID>/formResponse` targeting a hidden iframe. No CORS issues, no page redirect. A success message appears under the form.
-- For **Formspree**: uses `fetch` + JSON response with a loading state, validation, and local draft saving.
-
-## Deploy
-- Upload `index.html`, `assets/`, and `data/site.json` to your GitHub repo root.
-- Enable **Settings → Pages → Deploy from a branch** (Branch: `main`, Folder: `/ (root)`).
-
-## Tips
-- Keep the **honeypot** field (named `company`) to reduce spam.
-- For dark mode, the Google Forms iframe cannot be themed—you’ll see Google’s default styling only if you embed the full form. This integration keeps your site’s UI but sends data to Google.
-
-© 2025 Chindam Rohit
+## Contact form (Google Forms)
+- The form is wired to Google Forms via `forms.google.id` and `fields.entry.*` in `site.json`.
+- In Google Forms, turn **off** “Restrict to users in your organization” and **off** “Limit to 1 response”.
+- Ensure **Responses** are enabled.

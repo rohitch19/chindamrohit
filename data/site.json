@@ -6,36 +6,26 @@
     "description": "Experience across manual & mobile testing, automation, and backend/DevOps. Comfortable with Java, Spring Boot, AWS, Appium, Jira. Based in Nashville, open to remote or on-site roles."
   },
   "contact": {
-    "email": "hello@yourdomain.com"
+    "email": "hello@yourdomain.com",
+    "hint": "Reach out for roles, collaborations, or questions."
   },
   "resume": "assets/Rohit_Resume.pdf",
   "social": {
     "linkedin": "https://www.linkedin.com/in/your-handle",
     "github": "https://github.com/your-handle"
   },
-  "forms": {
-    "provider": "google",
-    "google": {
-      "id": "YOUR_GOOGLE_FORM_ID",
-      "fields": {
-        "name": "entry.111111",
-        "email": "entry.222222",
-        "subject": "entry.333333",
-        "message": "entry.444444"
-      }
-    },
-    "formspree": {
-      "endpoint": "https://formspree.io/f/your-code"
-    }
-  },
   "about": {
-    "bio": "I'm a Software Engineer and QA professional with experience across manual testing, automation, and backend/DevOps. I’ve worked at Tata Consultancy Services (Core Banking), SharkNinja (mobile apps & IoT devices), and as a Graduate TA at Cleveland State University.",
+    "bio": "I'm a Software Engineer and QA professional with experience across manual testing, automation, and backend/DevOps. I’ve worked at TCS (Core Banking), SharkNinja (mobile + IoT), and as a Graduate TA at Cleveland State University.",
     "facts": [
       "📍 Nashville, TN",
       "🎓 MS in Computer Science – Cleveland State University (2024)",
       "🛠️ Java, Spring Boot, AWS, Appium, Jira, Git",
       "🌐 Open to US & India roles • STEM OPT EAD till 2027"
-    ]
+    ],
+    "whatIDo": "Manual & regression testing (Android/iOS), API checks, exploratory testing, Jira workflows, and helping with automation pipelines.",
+    "howIWork": "Agile collaboration, reproducible bug reports, and reliability-focused thinking.",
+    "strengths": "Clear communication, fast ramp-up on new tech, end-to-end systems view.",
+    "learning": "UiPath fundamentals, deeper Appium, and stronger mobile SQA frameworks."
   },
   "skills": [
     {
@@ -52,7 +42,7 @@
     },
     {
       "title": "Automation",
-      "desc": "Appium (non-coding familiarity), GitHub Actions."
+      "desc": "Appium familiarity, GitHub Actions."
     },
     {
       "title": "Testing",
@@ -78,9 +68,9 @@
       "type": "Contract",
       "period": "2025",
       "bullets": [
-        "Tested Android/iOS apps with IoT devices.",
-        "Manual/regression testing; Jira tracking.",
-        "Validated backend data flows."
+        "Tested Android/iOS mobile apps connected to IoT devices.",
+        "Manual functional, regression & exploratory testing; tracked issues in Jira.",
+        "Collaborated cross-functionally; validated backend data flows & consistency."
       ]
     },
     {
@@ -88,8 +78,8 @@
       "company": "Cleveland State University",
       "period": "2023 – 2024",
       "bullets": [
-        "TA for Advanced OS & Algorithms.",
-        "Helped design content and grading."
+        "TA for Advanced Operating Systems & Analysis of Algorithms.",
+        "Helped design content, graded, and supported students."
       ]
     },
     {
@@ -97,7 +87,7 @@
       "company": "Tata Consultancy Services (SBI Core Banking)",
       "period": "2020 – 2022",
       "bullets": [
-        "Version control, bug fixing, deployments; client comms."
+        "Worked on version control, bug fixing, and deployments; client communication."
       ]
     }
   ],
@@ -105,7 +95,7 @@
     {
       "title": "BuddyNow – Social Meetup MVP",
       "image": "assets/project-1.png",
-      "desc": "Architecture, moderation, docs.",
+      "desc": "Planned scalable architecture, role-based moderation, and clean documentation.",
       "tags": [
         "React",
         "Node",
@@ -125,7 +115,7 @@
     {
       "title": "IoT Device QA Toolkit",
       "image": "assets/project-2.png",
-      "desc": "Flows for smart vacuums/kitchen appliances.",
+      "desc": "Test flows for smart vacuums/kitchen appliances with data validation.",
       "tags": [
         "Android",
         "iOS",
@@ -145,7 +135,7 @@
     {
       "title": "QA Reporting Dashboard",
       "image": "assets/project-3.png",
-      "desc": "KPIs: stability, pass rates, trends.",
+      "desc": "Simple KPIs for stability, regression pass rates, and issue trends.",
       "tags": [
         "Charts",
         "Node"
@@ -167,7 +157,7 @@
       "degree": "MS, Computer Science",
       "school": "Cleveland State University",
       "period": "2022 – 2024",
-      "desc": "Focus on OS, algorithms, web."
+      "desc": "Focus on OS, algorithms, and web technologies."
     },
     {
       "degree": "B.Tech, CSE",
@@ -175,5 +165,17 @@
       "period": "2016 – 2020",
       "desc": "Student trainer for web fundamentals."
     }
-  ]
+  ],
+  "forms": {
+    "provider": "google",
+    "google": {
+      "id": "1FAIpQLScP9AZnJHisTyR6ctP_6poZUNADu0ETPYP2yNsQg9ArSwfPzw",
+      "fields": {
+        "name": "entry.1313460157",
+        "email": "entry.217877994",
+        "subject": "entry.1627100009",
+        "message": "entry.1895713649"
+      }
+    }
+  }
 }
