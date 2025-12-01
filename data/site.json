@@ -1,76 +1,81 @@
 {
-  "name": "Chindam Rohit",
+  "name": "Rohit Laxmanna Chindam",
   "tagline": "Software Engineer • QA • DevOps",
   "hero": {
     "headline": "I build reliable software & test it like a pro.",
     "description": "Experience across manual & mobile testing, automation, and backend/DevOps. Comfortable with Java, Spring Boot, AWS, Appium, Jira. Based in Nashville, open to remote or on-site roles."
   },
   "contact": {
-    "email": "hello@yourdomain.com",
+    "email": "rohitlaxmanna.rc@gmail.com ",
     "hint": "Reach out for roles, collaborations, or questions."
   },
   "resume": "assets/Rohit_Resume.pdf",
   "social": {
-    "linkedin": "https://www.linkedin.com/in/your-handle",
-    "github": "https://github.com/your-handle"
+    "linkedin": "https://www.linkedin.com/in/rohit-laxmanna/",
+    "github": "https://github.com/rohitch19"
   },
   "about": {
-    "bio": "I'm a Software Engineer and QA professional with experience across manual testing, automation, and backend/DevOps. I’ve worked at TCS (Core Banking), SharkNinja (mobile + IoT), and as a Graduate TA at Cleveland State University.",
+    "bio": "Well-rounded Software Engineer with experience across development, automation, debugging, and cloud environments. Strong programming skills in Java and Python, combined with a solid understanding of distributed systems and modern engineering workflows.Capable of contributing across diverse technical areas including backend engineering, QA/automation, cloud services, and AI-enhanced tooling, with a focus on building reliable and scalable solutions.",
     "facts": [
       "📍 Nashville, TN",
       "🎓 MS in Computer Science – Cleveland State University (2024)",
-      "🛠️ Java, Spring Boot, AWS, Appium, Jira, Git",
-      "🌐 Open to US & India roles • STEM OPT EAD till 2027"
+      "🛠️ Java, AWS, Automation Jira, Git",
+      "🌐 Open to US & India roles • STEM OPT EAD till June 2027"
     ],
     "whatIDo": "Manual & regression testing (Android/iOS), API checks, exploratory testing, Jira workflows, and helping with automation pipelines.",
     "howIWork": "Agile collaboration, reproducible bug reports, and reliability-focused thinking.",
     "strengths": "Clear communication, fast ramp-up on new tech, end-to-end systems view.",
-    "learning": "UiPath fundamentals, deeper Appium, and stronger mobile SQA frameworks."
+    "learning": "Nvedia GB300, NV-links, Server Testing"
   },
   "skills": [
     {
-      "title": "Java & Spring Boot",
-      "desc": "Backend APIs, REST, Hibernate."
+      "title": "Programming Languages",
+      "desc": "Java, Python, C"
     },
     {
-      "title": "AWS",
-      "desc": "EC2, S3, IAM, basic CI/CD."
+      "title": "Cloud Platforms & Infra",
+      "desc": "AWS (EC2, VPC, RDS, S3, IAM, Lambda, CloudWatch), Linux, Windows, Vagrant, Oracle VM VirtualBox"
     },
     {
-      "title": "Mobile QA",
-      "desc": "Android & iOS, TestFlight, Play Console."
+      "title": "DevOps & CI/CD",
+      "desc": "Git, Jenkins, PVCS, CI/CD Fundamentals"
     },
     {
-      "title": "Automation",
-      "desc": "Appium familiarity, GitHub Actions."
+      "title": "Testing & Automation",
+      "desc": "Manual Testing, API Testing (Postman), UiPath (functional & regression automation), Shell Scripting"
     },
     {
-      "title": "Testing",
-      "desc": "Functional, Regression, Exploratory, Jira."
+      "title": "Database",
+      "desc": "SQL, MongoDb"
     },
     {
-      "title": "Data & APIs",
-      "desc": "API verification, backend flows, logging."
+      "title": "Development Practices & Methodologies",
+      "desc": "Agile (Scrum, Sprint Planning, Stand-ups), SDLC, STLC"
     },
     {
-      "title": "Scripting",
-      "desc": "Shell scripts for automation."
+      "title": "Backend & Web Development",
+      "desc": "Java Spring Boot, Hibernate, Node.js, Express.js, HTML, CSS"
     },
     {
       "title": "Tools",
-      "desc": "Git, Jira, Postman, GitHub."
+      "desc": "Jira, VS Code, Eclipse, Sublime Text, Notepad++, MobaXterm, PuTTY"
     }
   ],
   "experience": [
     {
-      "role": "SQA (Mobile)",
-      "company": "SharkNinja",
-      "type": "Contract",
+      "role": "Test Engineer I",
+      "company": "Quanta Manufacturing Nashville",
+      "type": "Full Time",
       "period": "2025",
       "bullets": [
-        "Tested Android/iOS mobile apps connected to IoT devices.",
-        "Manual functional, regression & exploratory testing; tracked issues in Jira.",
-        "Collaborated cross-functionally; validated backend data flows & consistency."
+        "Perform L10/L11 validation of NVIDIA GB300 racks, trays, and compute nodes, ensuring hardware, firmware, and BMC components meet manufacturing quality standards.",
+        "Test OBMC interfaces, host-to-BMC connectivity, PXE boot flows, and network provisioning across trays, switches, and ZPE management devices.",
+        "Validate NVSwitch, PCIe lanes, power sequencing, fan controls, and system bring-up procedures for high-density AI compute systems.",
+        "Run diagnostics, collect logs, and conduct root-cause analysis using Linux commands, serial console access, and OBMC client tools.",
+        "Coordinate with hardware, firmware, and integration teams to analyze failures, verify fixes, and support continuous production builds.",
+        "Execute test plans for BIOS, BMC firmware updates, and node-level validation, ensuring stable boot behavior and consistent host communication.",
+        "Maintain detailed documentation of test procedures, defect reports, and rack-level validation results in Jira and internal systems.",
+        "Support process improvements by identifying recurring issues and suggesting enhancements to test workflows and automation scripts."
       ]
     },
     {
@@ -157,13 +162,13 @@
       "degree": "MS, Computer Science",
       "school": "Cleveland State University",
       "period": "2022 – 2024",
-      "desc": "Focus on OS, algorithms, and web technologies."
+      "desc": ""
     },
     {
       "degree": "B.Tech, CSE",
       "school": "GRIET (India)",
       "period": "2016 – 2020",
-      "desc": "Student trainer for web fundamentals."
+      "desc": ""
     }
   ],
   "forms": {
