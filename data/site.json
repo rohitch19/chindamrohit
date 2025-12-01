@@ -96,7 +96,7 @@
       ]
     }
   ],
-  "projects": [
+  "update later" : {"projects": [
     {
       "title": "BuddyNow – Social Meetup MVP",
       "image": "assets/project-1.png",
@@ -156,7 +156,8 @@
         }
       ]
     }
-  ],
+  ]
+  },
   "education": [
     {
       "degree": "MS, Computer Science",
